@@ -6,6 +6,7 @@ def milesToKilometer(miles):
 
 #using while loop (try, except) to prompt user for input and simultaneously check if the input is correct 
 while True:
+    
     try: 
         miles = float(input("please enter the miles you like to convert: "))
         break
@@ -13,7 +14,7 @@ while True:
         print("No valid input, please enter it again: ")
 
 #printing the final output
+print("niksh")
 print("Total Kilometer for the given input miles: ", milesToKilometer(miles))
 print("Total Miles you entered: ", miles)
-print("VERSION II ")
 
